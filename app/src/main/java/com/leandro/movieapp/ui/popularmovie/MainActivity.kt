@@ -1,4 +1,4 @@
-package com.leandro.movieapp.ui
+package com.leandro.movieapp.ui.popularmovie
 
 import android.content.Intent
 import android.os.Bundle

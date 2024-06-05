@@ -6,7 +6,8 @@ import java.util.Locale
 
 object Formats {
 
-    fun formatCurrency(value : BigInteger) : String {
+    fun formatCurrency(value : Any?) : String {
+        if(value == null || value == "") return "$0"
         return try {
             val formatCurrency = NumberFormat.getCurrencyInstance(Locale.US)
             formatCurrency.format(value)

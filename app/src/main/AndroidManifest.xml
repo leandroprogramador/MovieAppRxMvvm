@@ -17,7 +17,7 @@
             android:theme="@style/Theme.MovieApp"
             android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.popularmovie.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MovieApp">

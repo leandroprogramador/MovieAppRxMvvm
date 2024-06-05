@@ -11,6 +11,8 @@ import java.util.concurrent.TimeUnit
 const val API_KEY = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYjVkNTgyZTNiMjA5YjY2ZTc5ZGFiYjkxZTE2MzdhNCIsInN1YiI6IjY2NWU5MTZlN2IyMTUyMDZlODU0ODk3ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.C0Anyd0mgHxtM_0VzjJRChaPlAVXu1zkrYoNtBfNvdA"
 const val BASE_URL = "https://api.themoviedb.org/3/"
 const val POSTER_BASE_URL = "https://image.tmdb.org/t/p/w600_and_h900_bestv2/"
+const val FIRST_PAGE = 1
+const val POST_PER_PAGE = 20
 object TheMovieDBClient {
 
     private val requestInterceptor = Interceptor { chain ->

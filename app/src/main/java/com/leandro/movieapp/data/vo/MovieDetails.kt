@@ -6,7 +6,7 @@ import com.leandro.movieapp.utils.Formats
 import java.math.BigInteger
 
 data class MovieDetails(
-    val budget: BigInteger,
+    val budget: Double,
     val id: Int,
     val overview: String,
     val popularity: Double,
@@ -16,7 +16,7 @@ data class MovieDetails(
     val rating: Double,
     @SerializedName("release_date")
     val releaseDate: String,
-    val revenue: BigInteger,
+    val revenue: Double,
     val runtime: Int,
     val status: String,
     val tagline: String,
